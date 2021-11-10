@@ -1,0 +1,243 @@
+/*
+Theme Name: Hamilton Child
+Theme URI: https://www.andersnoren.se/teman/hamilton-wordpress-theme/
+Template: hamilton
+Author: Anders Norén
+Author URI: https://www.andersnoren.se
+Description: Hamilton is a clean WordPress portfolio theme for creatives. It displays posts in a beautiful image grid that can be set to either two or three columns, which makes it a perfect fit for photographers, illustrators or graphic designers looking for a theme for their portfolio. It also features Block Editor/Gutenberg support, a dark mode, custom background color support, a resume page template, responsive design, Jetpack infinite scroll support, editor styling, and much more. Demo: https://andersnoren.se/themes/hamilton/
+Tags: blog,two-columns,three-columns,custom-menu,featured-images,threaded-comments,translation-ready,grid-layout,custom-background,custom-logo,editor-style,sticky-post,theme-options,portfolio,photography,block-styles,wide-blocks
+Version: 2.0.7.1636444738
+Updated: 2021-11-09 08:58:58
+
+*/
+
+@import url("https://use.typekit.net/yrf3qbe.css");
+@import url("https://use.typekit.net/yrf3qbe.css");
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: bilo, sans-serif;
+
+  font-weight: 500;
+
+  font-style: normal;
+}
+
+.woocommerce a.button,
+.page-header,
+.woocommerce .woocommerce-ordering,
+.sku_wrapper {
+  display: none;
+}
+
+.woocommerce div.product form.cart .variations td.label,
+.woocommerce div.product form.cart .variations td,
+.woocommerce div.product form.cart .variations th {
+  background-color: #dee1ea;
+}
+
+.woocommerce div.product form.cart .variations td.label {
+  padding: 1vw;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.site-footer {
+  background-color: #f2ecd9;
+}
+
+p,
+a,
+.wp-block-buttons > .wp-block-button:last-child,
+.wp-block-quote,
+footer,
+.posted_in {
+  font-family: mrs-eaves, serif;
+
+  font-weight: 400;
+
+  font-style: normal;
+}
+
+.site-footer p + p,
+.site-footer p {
+  color: #0c1737;
+  text-align: left;
+}
+
+.woocommerce div.product form.cart .variations label,
+.woocommerce div.product form.cart .button,
+.woocommerce div.product form.cart .variations select {
+  font-family: mrs-eaves, serif;
+  font-size: 3vh;
+  font-weight: 400;
+
+  font-style: normal;
+}
+
+.site-footer {
+  padding: 20px;
+}
+
+#infografikforside,
+#infografikmedlem {
+  margin-top: -7vw;
+}
+
+#forsidevideo {
+  margin-bottom: -20vh;
+  margin-top: -5vh;
+  z-index: -10;
+}
+
+.site-header .site-title a {
+  font-family: bilo, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 5vh;
+}
+
+.alt-nav li a {
+  font-size: 3vh;
+}
+
+.show-alt-nav .site-header {
+  height: 1vh;
+  padding-top: 20px;
+}
+
+.entry-content > *:first-child {
+  margin: none;
+}
+
+#velkommen,
+#forsidebillede1 {
+  margin-top: 10vh;
+}
+
+#velkommensec {
+  margin-left: -6vw;
+}
+
+#velkommenp {
+  width: 70%;
+}
+
+/* .woocommerce ul.products li.product,
+.woocommerce-page ul.products li.product {
+  width: 50%;
+} */
+
+.is-style-outline {
+  display: none;
+}
+
+#splashbillede {
+  margin-top: -20vh;
+}
+
+#produkter {
+  margin-top: 7vh;
+  margin-bottom: 2vh;
+}
+
+.wc-block-grid__product .wc-block-grid__product-add-to-cart,
+.wc-block-grid__product .wc-block-grid__product-onsale,
+.wc-block-grid__product .wc-block-grid__product-rating {
+  display: none;
+}
+
+.price bdi,
+.woocommerce div.product p.stock {
+  color: #0c1737;
+}
+
+.woocommerce div.product form.cart .button,
+.woocommerce div.product form.cart .variations select {
+  color: #0c1737;
+  border: #0c1737 1px solid;
+  background-color: #b5c9d3;
+  font-family: mrs-eaves, serif;
+  font-size: 3vh;
+  font-weight: 400;
+  border-radius: 0px;
+  font-style: normal;
+  opacity: 100;
+}
+
+.woocommerce div.product form.cart .button:hover,
+.woocommerce div.product form.cart .variations select:hover {
+  color: #0c1737;
+  border: #0c1737 1px solid;
+  background-color: #b5c9d3;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.woocommerce .quantity .qty {
+  border: #0c1737 1px solid;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active {
+  color: #0c1737;
+  background-color: #f2ecd9;
+  border: #0c1737 1px solid;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li {
+  color: #0c1737;
+  background-color: #f2ecd9;
+  border: none;
+  opacity: none;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li a {
+  color: #0c1737;
+  background-color: #f2ecd9;
+  border: none;
+  opacity: none;
+}
+
+.entry-content .alignnone,
+.entry-content .aligncenter,
+.entry-content .alignwide,
+.entry-content .alignfull {
+  margin-top: 1px;
+}
+
+#produkterh2 {
+  margin-top: 40px;
+}
+
+.wp-block-buttons > .wp-block-button:last-child {
+  color: #f2ecd9;
+  border: #f2ecd9;
+}
+
+#knap1 {
+  color: #0c1737;
+}
+
+:root .has-white-color {
+  color: #f2ecd9;
+}
+
+#diy {
+  margin-top: -10vh;
+}
+
+.flexbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.flexbox a {
+  margin-bottom: 2vh;
+}

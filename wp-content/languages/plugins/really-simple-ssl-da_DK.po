@@ -1,0 +1,296 @@
+# Translation of Plugins - Really Simple SSL - Stable (latest release) in Danish
+# This file is distributed under the same license as the Plugins - Really Simple SSL - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-01-19 10:39:41+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: da_DK\n"
+"Project-Id-Version: Plugins - Really Simple SSL - Stable (latest release)\n"
+
+#: class-admin.php:2564
+msgid "Maybe later"
+msgstr "Måske senere"
+
+#: class-admin.php:2563
+msgid "Leave a review"
+msgstr "Skriv en anmeldelse"
+
+#: multisite-cron.php:11
+msgid "Once every minute"
+msgstr "En gang hvert minut"
+
+#: class-multisite.php:1033
+msgid "Conversion of websites %s percent complete."
+msgstr "Omlægning af websteder %s procent færdig."
+
+#: class-admin.php:2557
+msgid "Hi, Really Simple SSL has kept your site secure for a month now, awesome! If you have a moment, please consider leaving a review on WordPress.org to spread the word. We greatly appreciate it! If you have any questions or feedback, leave us a %smessage%s."
+msgstr "Hej, du har brugt Really Simple SSL i en måned nu, fedt! Hvis du har et øjeblik, så overvej at skrive en anmeldelse på WordPress.org, for at sprede budskabet om os. Vi sætter stor pris på det! Hvis du har nogle spørgsmål eller tilbagemeldninger, så send en %sbesked%s."
+
+#: class-multisite.php:159
+msgid "Activate SSL per site or install a wildcard certificate to fix this."
+msgstr "Aktiver SSL per websted eller installer et wild card certifikat, for at fikse dette."
+
+#: class-multisite.php:158
+msgid "This leads to issues when activating SSL networkwide since subdomains will be forced over SSL as well while they don't have a valid certificate."
+msgstr "Dette fører til problemer, når du aktiver SSL på hele netværket, eftersom  subdomæner vil blive tvunget over SSL, selvom at de ikke har et gyldigt certifikat."
+
+#: class-multisite.php:157
+msgid "You run a Multisite installation with subdomains, but your site doesn't have a wildcard certificate."
+msgstr "Du kører en multisite installation med subdomæner, men dit websted har ikke et gyldigt certifikat."
+
+#: class-admin.php:4529
+msgid "Cancel"
+msgstr "Annuller"
+
+#: class-admin.php:4496
+msgid "Are you sure?"
+msgstr "Er du sikker?"
+
+#: class-admin.php:3945
+msgid "More info"
+msgstr "Mere information"
+
+#: class-admin.php:4514
+msgid "Deactivating the plugin while keeping SSL will do the following:"
+msgstr "Deaktivering af pluginet, mens du beholder SSL, vil gøre følgende: "
+
+#: class-admin.php:116
+msgid "Really Simple SSL and Really Simple SSL add-ons do not process any personal identifiable information, so the GDPR does not apply to these plugins or usage of these plugins on your website. You can find our privacy policy <a href=\"%s\" target=\"_blank\">here</a>."
+msgstr "Really Simple SSL og Really Simple SSL plugins bearbejder ikke nogle personlige identificerbare oplysninger, så GDPR'en anvendes ikke til disse plugins eller brug af disse plugins på dit websted. Du kan finde vores privatlivspolitik <a href=\"%s\" target=\"_blank\">her</a>."
+
+#: lets-encrypt/wizard/templates/activate.php:55
+msgid "We strongly recommend to create a %sbackup%s of your site before activating SSL"
+msgstr "Det anbefales kraftigt at oprette en %sbackup%s af dit websted, før du aktiver SSL"
+
+#. Author URI of the plugin
+msgid "https://really-simple-plugins.com"
+msgstr "https://really-simple-plugins.com"
+
+#: class-admin.php:568 lets-encrypt/wizard/templates/activate.php:26
+#: lets-encrypt/wizard/templates/activate.php:66
+msgid "You can also let the automatic scan of the pro version handle this for you, and get premium support, increased security with HSTS and more!"
+msgstr "Du kan også lade den automatiske skanner fra pro-versionen klare dette for dig, og få premium kundeservice, øget sikkerhed med HSTS og mere!"
+
+#: class-multisite.php:456
+msgid "Options saved."
+msgstr "Indstillinger gemt."
+
+#: class-multisite.php:339
+msgid "Enable SSL"
+msgstr "Aktiver SSL"
+
+#: class-admin.php:4169 class-admin.php:4199 class-admin.php:4276
+#: class-admin.php:4552
+msgid "This option is enabled on the network menu."
+msgstr "Denne indstilling er aktiveret på netværksmenuen."
+
+#: class-multisite.php:338
+msgid "Select to enable SSL networkwide or per site."
+msgstr "Vælg for at aktivere SSL på hele netværket eller per websted."
+
+#: class-multisite.php:362
+msgid "per site"
+msgstr "per websted."
+
+#: class-multisite.php:361
+msgid "networkwide"
+msgstr "hele netværket"
+
+#: class-admin.php:556 lets-encrypt/wizard/templates/activate.php:56
+msgid "You may need to login in again."
+msgstr "Du bliver måske nødt til at logge ind igen."
+
+#: class-admin.php:3123
+msgid "Enable a .htaccess redirect or WordPress redirect in the settings to create a 301 redirect."
+msgstr "Aktiver en .htaccess omdirigering eller WordPress omdirigering i indstillingerne, for at oprette en 301 omdirigering."
+
+#: class-admin.php:4036 class-site-health.php:158
+msgid "Enable 301 .htaccess redirect"
+msgstr "Aktiver 301 .htaccess omdirigering"
+
+#: class-admin.php:3100
+msgid "No 301 redirect is set. Enable the WordPress 301 redirect in the settings to get a 301 permanent redirect."
+msgstr "Ingen 301 omdirigering er indstillet. Aktiver WordPress 301 omdirigeringen i indstillingerne, for at opnå en 301 permanent omdirigering."
+
+#: class-admin.php:4025
+msgid "In most cases you need to leave this enabled, to prevent mixed content issues on your site."
+msgstr "I de fleste tilfælde bliver du nødt til at lade dette være aktiveret, for at forhindre blandet-indhold problemer på dit websted."
+
+#: class-admin.php:4042
+msgid "If you want to customize the Really Simple SSL .htaccess, you need to prevent Really Simple SSL from rewriting it. Enabling this option will do that."
+msgstr "Hvis du vil tilpasse Really Simple SSL .htaccess, bliver du nødt til at forhindre Really Simple SSL i at overskrive den. Aktiveringen af denne indstilling gør dette."
+
+#: class-admin.php:3177
+msgid "HTTP Strict Transport Security was enabled."
+msgstr "HTTP Strict Transport Security blev aktiveret"
+
+#: class-admin.php:3096
+msgid "301 redirect to https set."
+msgstr "301 omdirigering til https er opsat."
+
+#: class-multisite.php:576 class-multisite.php:604
+msgid "You can also let the automatic scan of the pro version handle this for you, and get premium support and increased security with HSTS included."
+msgstr "Du kan også lade den automatiske skanner fra pro versionen klare dette for dig, og få premium kundeservice, øget sikkerhed med HSTS og mere!"
+
+#: class-admin.php:4585 class-multisite.php:231
+msgid "Premium Support"
+msgstr "Førsteklasses support"
+
+#: class-multisite.php:578 class-multisite.php:606
+msgid "Check out Really Simple SSL Premium"
+msgstr "Overvej Really Simple SSL Premium"
+
+#: lets-encrypt/wizard/class-wizard.php:900
+msgid "Go ahead, activate SSL!"
+msgstr "Fortsæt, aktiver SSL!"
+
+#: class-multisite.php:130
+msgid "SSL is not enabled yet"
+msgstr "SSL er ikke aktiveret endnu"
+
+#: class-admin.php:3004
+msgid "SSL is enabled on your site."
+msgstr "SSL er aktiveret på dit websted."
+
+#: lets-encrypt/functions.php:379 lets-encrypt/functions.php:380
+msgid "Instructions"
+msgstr "Instruktioner"
+
+#: grid/templates/progress-footer.php:6
+msgid "SSL Activated"
+msgstr "SSL er aktiveret"
+
+#: class-admin.php:544 lets-encrypt/wizard/templates/last-step.php:13
+msgid "Almost ready to migrate to SSL!"
+msgstr "Næsten klar til at migrere til SSL!"
+
+#: class-multisite.php:586
+msgid "Activate SSL per site"
+msgstr "Aktiver SSL per websted"
+
+#: class-multisite.php:583
+msgid "Activate SSL networkwide"
+msgstr "Aktiver SSL på hele netværket"
+
+#: class-admin.php:50 class-cache.php:11 class-certificate.php:14
+#: class-front-end.php:18 class-help.php:9 class-mixed-content-fixer.php:13
+#: class-multisite.php:28 class-site-health.php:12
+#: lets-encrypt/class-letsencrypt-handler.php:30
+msgid "%s is a singleton class and you cannot create a second instance."
+msgstr "%s er en singletonklasse, og du kan ikke oprette endnu en."
+
+#: class-admin.php:2411
+msgid "Your wp-config.php has to be edited, but is not writable."
+msgstr "Din wp-config.php skal redigeres, men den er ikke skrivbar."
+
+#: class-multisite.php:589
+msgid "Networkwide activation does not check if a site has an SSL certificate. It just migrates all sites to SSL."
+msgstr "Aktivering på hele netværket tjekker ikke om et websted har et SSL-certifikat. Den migrerer bare alle websteder til SSL."
+
+#: class-admin.php:2434
+msgid "Because your server does not pass a variable with which WordPress can detect SSL, WordPress may create redirect loops on SSL."
+msgstr "Fordi din server ikke sender en variabel, som WordPress kan registere SSL med, så vil WordPress måske skabe en omdirigeringsløkke på SSL."
+
+#: class-admin.php:2412
+msgid "Because your site is behind a loadbalancer and is_ssl() returns false, you should add the following line of code to your wp-config.php."
+msgstr "Fordi dit websted er bag en loadbalancer og is_ssl() kommer tilbage falsk, burde du tilføje de følgende linjer kode til din wp-config.php."
+
+#: class-admin.php:2406
+msgid "A definition of a siteurl or homeurl was detected in your wp-config.php, but the file is not writable."
+msgstr "En definition af en sideurl eller forsideurl er registeret i din wp-config.php, men filen er ikke skrivbar."
+
+#: class-admin.php:2441
+msgid "System detection encountered issues"
+msgstr "System detection oplever problemer"
+
+#: class-multisite.php:574 lets-encrypt/wizard/templates/activate.php:20
+#: lets-encrypt/wizard/templates/activate.php:49
+msgid "Images, stylesheets or scripts from a domain without an SSL certificate: remove them or move to your own server."
+msgstr "Billeder, stylesheets eller scripts fra et domæne uden et SSL-certifkat: Fjern dem eller flyt til din egen server."
+
+#: class-multisite.php:571
+msgid "Some things can't be done automatically. Before you migrate, please check for: "
+msgstr "Nogle ting kan ikke gøres automatisk. Før du migrerer, så tjek venligst for:"
+
+#: class-admin.php:2408 class-admin.php:2435
+msgid "Set your wp-config.php to %swritable%s and reload this page."
+msgstr "Sæt din wp-config.php til at være %swritable%s og genindlæs denne side."
+
+#: class-admin.php:554 class-multisite.php:573
+#: lets-encrypt/wizard/templates/activate.php:19
+#: lets-encrypt/wizard/templates/activate.php:48
+msgid "Http references in your .css and .js files: change any http:// into https://"
+msgstr "HTTP-henvisninger i dine .css og .js-filer: Skift alle http:// til https://"
+
+#: class-admin.php:2428
+msgid "Or set your wp-config.php to %swritable%s and reload this page."
+msgstr "Eller sæt din wp-config.php til at være %swritable%s og genindlæs denne side."
+
+#: class-admin.php:2825 class-multisite.php:468
+#: grid/templates/tips-tricks-footer.php:3
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#. Plugin Name of the plugin
+msgid "Really Simple SSL"
+msgstr "Really Simple SSL"
+
+#. Description of the plugin
+msgid "Lightweight plugin without any setup to make your site SSL proof"
+msgstr "Letvægtsplugin uden nogen opsætning til gøre dit websted SSL klart."
+
+#: class-admin.php:4043
+msgid "Stop editing the .htaccess file"
+msgstr "Hold op med at redigere .htaccess-filen"
+
+#: class-admin.php:3032
+msgid "An SSL certificate was detected on your site."
+msgstr "Et SSL-certifikat er registeret på dit websted."
+
+#: grid/templates/settings-footer.php:3
+#: lets-encrypt/wizard/class-field.php:1302
+msgid "Save"
+msgstr "Gem"
+
+#: class-admin.php:4026
+msgid "Mixed content fixer"
+msgstr "Blandet-indhold funktion"
+
+#: class-admin.php:2770 class-admin.php:3645 class-admin.php:4023
+#: class-admin.php:4579 class-multisite.php:225 class-multisite.php:337
+#: class-multisite.php:409
+msgid "Settings"
+msgstr "Indstillinger"
+
+#: class-admin.php:2917
+msgid "Check again"
+msgstr "Tjek igen"
+
+#: class-admin.php:2915
+msgid "Major security issue!"
+msgstr "Stort sikkerhedsproblem!"
+
+#: class-admin.php:2748
+msgid "SSL"
+msgstr "SSL"
+
+#: class-admin.php:2747
+msgid "SSL settings"
+msgstr "SSL indstillinger"
+
+#: class-multisite.php:145
+msgid "Because the $_SERVER[\"HTTPS\"] variable is not set, your website may experience redirect loops."
+msgstr "Fordi $_SERVER[\"HTTPS\"] variablen ikke er opsat, kan dit websted opleve omdirigeringsløkker."
+
+#: class-multisite.php:144
+msgid "You run a Multisite installation with subfolders, which prevents this plugin from fixing your missing server variable in the wp-config.php."
+msgstr "Du kører en multisite installation med undermapper, hvilket forhindrer dette plugin fra at ordne den manglende servervariabel i wp-config.php."
+
+#: class-multisite.php:146
+msgid "Activate networkwide to fix this."
+msgstr "Aktiver på hele netværket for at ordne dette."
